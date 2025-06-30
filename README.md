@@ -1,5 +1,9 @@
 # Free Reusable React Components
 
+![Build](https://img.shields.io/github/actions/workflow/status/NeelBhavsar1/free-react-components/ci.yml?branch=main&style=flat-square)
+![NPM Version](https://img.shields.io/npm/v/free-react-components?style=flat-square)
+![License](https://img.shields.io/github/license/NeelBhavsar1/free-react-components?style=flat-square)
+
 This repository is a curated collection of free, reusable React components designed to help developers build modern web applications faster and more efficiently.
 
 ## Features
@@ -13,14 +17,32 @@ This repository is a curated collection of free, reusable React components desig
 
 Building UI components from scratch for every project can be time-consuming. This set of components saves you time by providing ready-made building blocks that integrate seamlessly into React apps.
 
+## Project Structure
+
+/src
+├── /components # Reusable React component files
+├── App.jsx # Main app component to demo/test components
+├── index.jsx # React DOM rendering entry point
+├── index.css # Global styles
+└── ... # Other project files
+
 ## Getting Started
 
-To use any component:
+1. Clone the repository:
 
-- 1) Install the package or copy the components you need.
-- 2) Import the component into your React project.
-- 3) Customize via props and CSS as required.
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
 
+2. Install dependencies
+    
+    npm install
 
-## Contributions
-Contributions, bug reports, and suggestions are welcome! Please open an issue or submit a pull request.
+3. Run the Development server
+
+    npm run dev
+
+4. Open your browser at http://localhost:3000 (or the URL shown in your terminal) to view the app and explore the components in action.
+
+5. Import and use the components in your own projects as needed.
+
