@@ -15,12 +15,14 @@ Building UI components from scratch for every project can be time-consuming. Thi
 
 ## Project Structure
 
+```
 /src
 ├── /components # Reusable React component files
 ├── App.jsx # Main app component to demo/test components
 ├── index.jsx # React DOM rendering entry point
 ├── index.css # Global styles
 └── ... # Other project files
+```
 
 ## Getting Started
 
