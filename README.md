@@ -1,9 +1,5 @@
 # Free Reusable React Components
 
-![Build](https://img.shields.io/github/actions/workflow/status/NeelBhavsar1/free-react-components/ci.yml?branch=main&style=flat-square)
-![NPM Version](https://img.shields.io/npm/v/free-react-components?style=flat-square)
-![License](https://img.shields.io/github/license/NeelBhavsar1/free-react-components?style=flat-square)
-
 This repository is a curated collection of free, reusable React components designed to help developers build modern web applications faster and more efficiently.
 
 ## Features
